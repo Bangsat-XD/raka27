@@ -156,7 +156,7 @@ def raka27():
         raka27()
 
 
-def mr_error():
+def main_menu():
     os.system('clear')
     try:
     	nunu = open('token.txt', 'r').read()
@@ -692,4 +692,4 @@ class __crack__:
 
 if __name__ == '__main__':
     os.system('git pull')
-    mr_error()
+    main_menu()
