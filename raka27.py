@@ -171,7 +171,7 @@ def main_menu():
     except requests.exceptions.ConnectionError:
         exit('\n\n %s[%s!%s] NO INTERNET CONNECTION :(\n'%(N,M,N))
     os.system('clear')
-    banner()
+def banner():
     print("%s	NAME      : %s%s ")%(K,H,nam)
     print("%s	DEVICE IP : %s%s ")%(K,H,IP)
     print("%s	LOCATION  : %s%s ")%(K,H,loc)
