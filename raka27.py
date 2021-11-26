@@ -97,7 +97,7 @@ def tod():
 
 def banner():
 	os.system("clear")
-	os.system('echo  "\n\n    ▄▄▄       ███▄ ▄███▓ ▄▄▄▄     █████▒\n   ▒████▄    ▓██▒▀█▀ ██▒▓█████▄ ▓██   ▒ \n   ▒██  ▀█▄  ▓██    ▓██░▒██▒ ▄██▒████ ░ \n   ░██▄▄▄▄██ ▒██    ▒██ ▒██░█▀  ░▓█▒  ░ \n    ▓█   ▓██▒▒██▒   ░██▒░▓█  ▀█▓░▒█░    \n    ▒▒   ▓▒█░░ ▒░   ░  ░░▒▓███▀▒ ▒ ░    \n     ▒   ▒▒ ░░  ░      ░▒░▒   ░  ░      \n     ░   ▒   ░      ░    ░    ░  ░ ░    \n         ░  ░       ░    ░              \n                              ░         \n\n╔═══════════════════════════════════════════╗\n║  Author   : ☆ RAKA ☆ ™︻®╤───────═◍➤                   ║\n║  Github   : https://github.com/Bangsat-XD   ║           \n║  Fb       : https://me.fb/GARANGAN.KECHE       ║           \n╚═══════════════════════════════════════════╝" | lolcat -a -d 2 -s 50')
+	os.system('echo  "\n\n    ▄▄▄       ███▄ ▄███▓ ▄▄▄▄     █████▒\n   ▒████▄    ▓██▒▀█▀ ██▒▓█████▄ ▓██   ▒ \n   ▒██  ▀█▄  ▓██    ▓██░▒██▒ ▄██▒████ ░ \n   ░██▄▄▄▄██ ▒██    ▒██ ▒██░█▀  ░▓█▒  ░ \n    ▓█   ▓██▒▒██▒   ░██▒░▓█  ▀█▓░▒█░    \n    ▒▒   ▓▒█░░ ▒░   ░  ░░▒▓███▀▒ ▒ ░    \n     ▒   ▒▒ ░░  ░      ░▒░▒   ░  ░      \n     ░   ▒   ░      ░    ░    ░  ░ ░    \n         ░  ░       ░    ░              \n                              ░         \n\n╔═══════════════════════════════════════════╗\n║  Author   : Bangsat-XD                   ║\n║  Github   : https://github.com/Bangsat-XD   ║           \n║  Fb       : https://me.fb/GARANGAN.KECHE       ║           \n╚═══════════════════════════════════════════╝" | lolcat -a -d 2 -s 50')
 	print("")
 	
 
@@ -111,16 +111,15 @@ def resu(ok,cp):
         print '\n\n [%s!%s] OOPS YOU GOT NO RESULTS :('%(M,N);exit()
 
 
-def azimvau():
+def raka27():
     os.system('clear')
     banner()
     print("%s IF YOU DON'T KNOW HOW TO GET TOKEN TYPE (%sOPEN%s)")%(K,H,K)
     print("")
-    nunu = raw_input('\n %s[%s?%s] TOKEN :%s ' % (N, M, N, H))
+    nunu = raw_input('\n %s[%s?%s] ☆ENTER TOKEN☆™︻®╤───────═◍➤ :%s ' % (N, M, N, H))
     if nunu in ('open', 'Open', 'OPEN'):
         raw_input('\n %s*%s PRESS ENTER ' % (O, N))
-        os.system('xdg-open https://m.youtube.com/watch?v=jdGD_KqN4Pk')
-        azimvau()
+        raka27()
     try:
         nam = requests.get('https://graph.facebook.com/me?access_token=%s' % nunu).json()['name']
         open('token.txt', 'w').write(nunu)
@@ -130,7 +129,7 @@ def azimvau():
     except KeyError:
         print '\n\n %s[%s!%s] INVALID TOKEN :(' % (N, M, N)
         time.sleep(2)
-        azimvau()
+        raka27()
 
 
 def mr_error():
@@ -153,7 +152,7 @@ def mr_error():
     print("%s	DEVICE IP : %s%s ")%(K,H,IP)
     print("%s	LOCATION  : %s%s ")%(K,H,loc)
     os.system('echo "\n [1]. DUMP ID FROM FRIENDS\n [2]. DUMP ID FROM PUBLIC FRIEND\n [3]. DUMP ID FROM TOTAL FOLLOWERS\n [4]. DUMP ID FROM LIKE POST\n [5]. START CRACK\n [6]. VIEW CRACK RESULTS\n [7]. USER AGENT SETTINGS"| lolcat -a -d 2')
-    os.system("xdg-open https://t.me/mrerrorgroup")
+    os.system("xdg-open https://fb.me/GARANGAN.KECHE")
     innocent = raw_input('\n\033[93;1m [*] MENU :\033[92;1m ')
     if innocent == '':
         print "\n %s[%s×%s] DON'T LEAVE IT BLANK"%(N,M,N);time.sleep(2);mr_error()
